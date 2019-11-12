@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HRBocSignContract'
-  s.version          = '2.1.3'
+  s.version          = '2.1.2.1'
   s.summary          = '远程签约SDK'
 
   s.description      = <<-DESC
@@ -33,12 +33,12 @@ Pod::Spec.new do |s|
   s.dependency 'MBProgressHUD'
   s.dependency 'IQKeyboardManager'
   s.dependency 'MJExtension'
-  s.dependency 'NIMSDK','~>6.6.7'
+  s.dependency 'NIMSDK'
   s.dependency 'UITableView+FDTemplateLayoutCell'
   s.dependency 'Toast'
+  s.dependency 'WPAttributedMarkup'
   s.dependency 'Masonry'
   s.dependency 'FontAwesome'
-  s.dependency 'HRLivingBodyDetection/ZHSdkLib'
   s.dependency 'eHRFaceSDK'
   s.dependency 'eCameraLib'
 end
